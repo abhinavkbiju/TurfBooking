@@ -1,0 +1,717 @@
+.pic {
+    height: 10%;
+    width: 100%;
+    background-image: url(https://media.istockphoto.com/id/915097804/photo/black-brick-wall-background-texture-dark-masonry.jpg?s=612x612&w=0&k=20&c=6E9gSLZ261VciCcXJvig-Sn0Q-ypvqWnEN7iOgv69hk=);
+}
+
+#logo1 {
+    height: 20%;
+    width: 19%;
+    padding-bottom: 4%;
+    animation-duration: 6s;
+    animation-name: example;
+}
+
+#logo2 {
+    height: 30%;
+    width: 14%;
+    margin-top: 5%;
+    margin-left: 4%;
+}
+
+.log {
+    margin-left: 10%;
+}
+
+#vs {
+    text-align: center;
+    color: rgb(255, 255, 255);
+    background-image: linear-gradient(to right, rgb(80, 2, 2), rgb(0, 0, 0));
+    overflow: hidden;
+}
+
+#title {
+    color: rgb(0, 0, 0);
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+
+.mm {
+    margin-top: 10%;
+    margin-left: 2%;
+}
+
+.match_day {
+    background-color: rgb(2, 192, 151);
+    height: 4%;
+    width: 100%;
+    margin-top: .7%;
+}
+
+.name {
+    font-family: 'Times New Roman', Times, serif;
+}
+
+.slots {
+    color: rgb(255, 255, 255);
+    height: 4%;
+    width: 100%;
+    margin-top: .7%;
+}
+
+.card {
+    width: 600px;
+    height: 800px;
+    background-image: linear-gradient(to right, rgb(80, 2, 2), rgb(0, 0, 0));
+}
+
+.book {
+    align-items: center;
+    background-color: #e40000;
+    border: 2px solid #000;
+    box-sizing: border-box;
+    color: #000;
+    cursor: pointer;
+    display: inline-flex;
+    fill: #000;
+    font-family: Inter, sans-serif;
+    font-size: 16px;
+    font-weight: 600;
+    height: 48px;
+    justify-content: center;
+    letter-spacing: -.8px;
+    line-height: 24px;
+    min-width: 140px;
+    outline: 0;
+    padding: 0 17px;
+    text-align: center;
+    text-decoration: none;
+    transition: all .3s;
+    user-select: none;
+    -webkit-user-select: none;
+    touch-action: manipulation;
+    border-radius: 10px;
+}
+
+.book:focus {
+    color: #171e29;
+}
+
+.book:hover {
+    background-color: #171e29;
+    border-color: rgb(17, 0, 250);
+    color: rgb(17, 0, 250);
+    fill: rgb(17, 0, 250);
+}
+
+.book:active {
+    border-color: rgb(17, 0, 250);
+    color: rgb(17, 0, 250);
+    fill: rgb(17, 0, 250);
+}
+
+.slots {
+    font-family: 'Times New Roman', Times, serif;
+}
+
+.card {
+    border: .1px solid rgb(7, 7, 7);
+}
+
+.card-title {
+    color: white;
+    font-family: 'Times New Roman', Times, serif;
+}
+
+.text {
+    color: rgb(255, 255, 255);
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    width: 600px;
+}
+
+.card-text {
+    color: orangered;
+}
+
+.image {
+    height: 900px;
+    width: 500px;
+    overflow: hidden;
+}
+
+.quotes {
+    color: rgb(255, 255, 255);
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    text-size-adjust: 100px;
+}
+
+#card-qts {
+    width: 900px;
+    height: 400px;
+    text-align: center;
+    background-color: white;
+    margin-left: 250px;
+    margin-top: 50px;
+    background-image: linear-gradient(to right, rgb(52, 68, 75), rgb(0, 0, 0));
+    box-shadow: 0 0 100px #000;
+
+}
+
+#messi {
+    width: 350px;
+    height: 600px;
+    padding-bottom: 305px;
+    margin-left: 15px;
+}
+
+#player-name {
+    color: rgb(141, 170, 12);
+}
+
+#card1 {
+    height: 450px;
+    width: 400px;
+    margin-right: 60px;
+    margin-left: 60px;
+    margin-top: 30px;
+    box-shadow: 0 0 60px #000;
+}
+
+#card2 {
+    height: 450px;
+    width: 400px;
+    margin-right: 60px;
+    margin-top: 30px;
+    box-shadow: 0 0 60px #000;
+}
+
+#card3 {
+    height: 450px;
+    width: 400px;
+    margin-right: 60px;
+    margin-top: 30px;
+    box-shadow: 0 0 60px #000;
+}
+
+
+#location2 {
+    width: 50px;
+    margin-left: 155px;
+    margin-top: 70px;
+}
+
+#location3 {
+    width: 50px;
+    margin-left: 155px;
+    margin-top: 72px;
+}
+
+.match-day {
+    color: white;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    width: 250px;
+    margin-top: 10px;
+    margin-left: -10px;
+    margin-right: 60px;
+}
+
+#btn1 {
+    margin-top: 100px;
+}
+
+#btn2 {
+    margin-top: 126px;
+}
+
+#btn3 {
+    margin-top: 127px;
+}
+
+.stadium {
+    color: white;
+}
+
+.title {
+    color: rgb(243, 243, 243);
+    width: 150px;
+    margin-left: 70px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.Card.Text {
+    margin-left: 30px;
+}
+
+.tex {
+
+    color: white;
+}
+
+button {
+    color: white;
+    width: 200px;
+}
+
+.rs {
+    color: orangered;
+}
+
+.Card.Body {
+    height: 900px;
+}
+
+#card-group {
+    height: 450px;
+    width: 700px;
+    margin-right: 100px;
+    margin-top: 30px;
+    margin-left: 100px;
+    box-shadow: 0 0 60px #000;
+}
+
+.teams {
+    color: yellow;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    width: 350px;
+    font-size: larger;
+    margin-left: -65px;
+}
+
+.date {
+    color: #fff3f3;
+    width: 350px;
+    margin-left: -65px;
+    font-size: larger;
+}
+
+#location1 {
+    width: 50px;
+    margin-left: 20px;
+    margin-top: 10px;
+}
+
+#book-now {
+    align-items: center;
+    background-color: #e40000;
+    border: 2px solid #000;
+    box-sizing: border-box;
+    color: #000;
+    cursor: pointer;
+    display: inline-flex;
+    fill: #000;
+    font-family: Inter, sans-serif;
+    font-size: 16px;
+    font-weight: 600;
+    height: 48px;
+    justify-content: center;
+    letter-spacing: -.8px;
+    line-height: 24px;
+    min-width: 140px;
+    outline: 0;
+    padding: 0 17px;
+    text-align: center;
+    text-decoration: none;
+    transition: all .3s;
+    user-select: none;
+    -webkit-user-select: none;
+    touch-action: manipulation;
+    border-radius: 10px;
+}
+
+#book-now:focus {
+    color: #171e29;
+}
+
+#book-now:hover {
+    background-color: #171e29;
+    border-color: rgb(17, 0, 250);
+    color: rgb(17, 0, 250);
+    fill: rgb(17, 0, 250);
+}
+
+#book-now:active {
+    border-color: rgb(17, 0, 250);
+    color: rgb(17, 0, 250);
+    fill: rgb(17, 0, 250);
+}
+
+#under-card {
+    background-color: black;
+    height: 500px;
+    width: 1350px;
+    overflow: hidden;
+    margin-top: 80px;
+}
+
+.website {
+    color: white;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    margin-top: 50px;
+
+}
+
+.text-uc {
+    color: rgb(75, 1, 1);
+}
+
+.features1 {
+    color: white;
+    padding: 90px;
+}
+
+.features2 {
+    color: rgb(255, 72, 0);
+    padding: 90px;
+}
+
+.features3 {
+    color: white;
+    padding: 90px;
+}
+
+.gh {
+    width: 100%;
+    height: 260px;
+    background-color: rgb(0, 0, 3);
+    margin-top: 10px;
+}
+
+.group {
+    color: white;
+    font-family: bodoni 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-weight: 50;
+    background-color: rgb(0, 110, 255);
+    text-align: center;
+    border: rgb(255, 255, 255);
+    border-radius: 6px;
+}
+
+.tex2::placeholder {
+    color: #e40000;
+}
+
+.tex11 {
+    background-color: orangered;
+    color: black;
+    border: none;
+    border-radius: 9px;
+    margin-left: 10px;
+    width: 100px;
+    height: 30px;
+}
+
+.tex11:hover {
+    background-color: white;
+    color: rgb(255, 0, 0);
+}
+
+.tex:hover {
+    color: #ffffff;
+    background-color: transparent;
+
+}
+
+.tex2 {
+    color: blue;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    background-color: white;
+    border: none;
+    border-radius: 10px solid rgb(255, 255, 255);
+    background-color: transparent;
+}
+
+.tex3 {
+    color: white;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-weight: 15;
+}
+
+.gh {
+    padding-bottom: 10px;
+}
+
+.img-home {
+    background-image: linear-gradient(to right, rgb(13, 124, 119), rgb(0, 0, 0));
+    width: 750px;
+    height: 350px;
+    margin-left: 10px;
+    margin-top: 100px;
+}
+.img-home {
+    transition: 0.3s;
+  }
+  
+  .img-home:hover {
+    transform: scale(1.1);
+  }
+
+.fight1 {
+    margin-top: 20px;
+    margin-left: 160px;
+    background-color: #000;
+}
+
+.cr7 {
+    margin-top: 0px;
+    margin-bottom: 0px
+}
+
+.cr7 {
+    box-sizing: border-box;
+}
+
+.cr7 {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 95vh;
+    width: 95vw;
+}
+
+.card-91 {
+    margin-top: 100px;
+    width: 1200px;
+    height: 600px;
+    margin-left: 80px;
+}
+
+.card-92 {
+    width: 200px;
+}
+
+.img91 {
+    opacity: 0.5;
+    margin-top: 50px;
+    margin-bottom: 50px;
+    width: 400px;
+    height: 500px;
+    border-radius: 25px;
+}
+
+.carousel12 {
+    margin-top: 50px;
+}
+
+.card13 {
+    margin-left: 355px;
+    margin-top: 10px;
+    color: #000;
+    border-radius: 3px solid black;
+}
+
+.card-home99 {
+    width: 1700px;
+    height: 400px;
+    margin-top: 140px;
+}
+
+.card-home-title {
+    margin-left: 800px;
+    text-align: center;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    color: #0060fa;
+}
+
+.card-home {
+    width: 900px;
+    height: 400px;
+
+}
+
+
+.top-right {
+    position: absolute;
+    top: 8px;
+    right: 16px;
+}
+.bottom-right {
+    position: absolute;
+    bottom: 8px;
+    right: 16px;
+}
+
+.centered {
+    position: absolute;
+    top: 50%;
+    left: 18%;
+    transform: translate(-50%, -50%);
+}
+
+.container {
+    position: relative;
+    text-align: center;
+    color: white;
+}
+
+.h2-clas {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+
+}
+
+.h1-class {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    color: rgb(153, 6, 6);
+
+}
+
+.p-class {
+    width: 500px;
+    height: 200px;
+    margin-left: 1300px;
+    margin-bottom: 300px;
+}
+
+.p--class {
+    color: #ffffff;
+    width: 400px;
+    height: 400px;
+    margin-left: 40px;
+    margin-bottom: 600px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+
+}
+
+.ff {
+    margin: 0;
+    padding: 0;
+    font-family: Arial, Helvetica, Sans-serif;
+    background-color: #070617;
+  }
+  .dummy_page {
+    height: 200px;
+    width: 100%;
+    background-color: #f0f0f0;
+    text-align: center;
+    box-sizing: border-box;
+    padding: 60px 0px;
+  }
+  .footer {
+    width: 100%;
+    position: relative;
+    height: auto;
+    background-color: #000000;
+  }
+  .footer .col {
+    width: 190px;
+    height: auto;
+    float: left;
+    box-sizing: border-box;
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    padding: 0px 20px 20px 20px;
+  }
+  .footer .col h1 {
+    margin: 0;
+    padding: 0;
+    font-family: inherit;
+    font-size: 12px;
+    line-height: 17px;
+    padding: 20px 0px 5px 0px;
+    color: rgba(255,255,255,0.2);
+    font-weight: normal;
+    text-transform: uppercase;
+    letter-spacing: 0.250em;
+  }
+  .footer .col ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+  }
+  .footer .col ul li {
+    color: #999999;
+    font-size: 14px;
+    font-family: inherit;
+    font-weight: bold;
+    padding: 5px 0px 5px 0px;
+    cursor: pointer;
+    transition: .2s;
+    -webkit-transition: .2s;
+    -moz-transition: .2s;
+  }
+  .social ul li {
+    display: inline-block;
+    padding-right: 5px !important;
+  }
+  
+  .footer .col ul li:hover {
+    color: #ffffff;
+    transition: .1s;
+    -webkit-transition: .1s;
+    -moz-transition: .1s;
+  }
+  .clearfix {
+    clear: both;
+  }
+   
+
+@media only screen and (max-width:780px) {
+    .Card {
+        width: fit-content;
+        height: 1600px;
+    }
+
+    .title {
+        width: 150px;
+        margin-left: 130px;
+    }
+
+    .tex {
+        margin-right: 130px;
+        width: 400px;
+    }
+
+    .book {
+        margin-right: 160px;
+        width: 50px;
+        height: 34px;
+    }
+
+    .rs {
+        margin-right: 150px;
+    }
+
+    #card-qts {
+        width: 400px;
+        margin-left: 45px;
+    }
+
+    #messi {
+        width: 250px;
+        height: 300px;
+        padding-bottom: 85px;
+        margin-left: 15px;
+    }
+
+    #card-group {
+        height: 450px;
+        width: 500px;
+        margin-right: 100px;
+        margin-top: 30px;
+        margin-left: -20px;
+        box-shadow: 0 0 60px #000;
+    }
+
+    #location1 {
+        width: 50px;
+        margin-left: 20px;
+        margin-top: 10px;
+        margin-bottom: 30px;
+    }
+
+    #book-now {
+        margin: -120px;
+    }
+
+    .features1 {
+        padding: 120px;
+        width: 600px;
+
+    }
+
+    .img-home {
+        width: 400px;
+        height: 200px;
+        margin-left: 20px;
+        margin-top: 10px;
+
+    }
+}

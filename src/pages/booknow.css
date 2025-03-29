@@ -1,0 +1,79 @@
+.cart44{
+    background-image: linear-gradient(to right, rgb(80, 2, 2), rgb(0, 0, 0));
+    width: 100%;
+    height: 100%;
+}
+.cart{
+    background-image: linear-gradient(to right, rgb(80, 2, 2), rgb(0, 0, 0));
+
+}
+.cart_44{
+    color: white;
+}
+.cart_1{
+    color: white;
+}
+.card-title{
+    color: white;
+}
+.h2{
+    color: white;
+}
+.h4{
+    color: white;
+}
+#card99{
+    color: white;
+}
+#card999{
+    color: white;
+}
+.color99{
+    color: white;
+}
+.small{
+    color: white;
+}
+#color76{
+    color: orangered;
+}
+.small{
+    color: orangered;
+    
+}
+.float-end{
+    margin-right: 180px;
+}
+.button99{
+    color: rgb(92, 11, 11);
+    background-color: black;
+    border: none;
+  
+    border-radius: 6px;
+}
+.button99:hover{
+    background-color: white;
+    color: black;
+}
+.lead1{
+    width: 130px;
+    height: 31px;
+    margin-left: 18px;
+    font-size: 1em;
+    color: #ffffff;
+    padding: 0 10px 0 35px;
+    background: transparent;
+    border: 1px solid #fff;
+    outline: none;
+    border-radius: 10px;
+}
+#inputGroupSelect01{
+    background: transparent;
+    color: #fff;
+}
+.cat{
+    background: transparent;
+    color: #000000;
+}
+
+

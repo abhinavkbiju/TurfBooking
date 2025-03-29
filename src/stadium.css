@@ -1,0 +1,36 @@
+.stadiu{
+    background-color: black;
+}
+.image95{
+    width: 1300px;
+    height: 600px;
+    margin-bottom: 30px;
+}
+.stadium{
+    overflow: hidden; 
+}
+.stadium2{
+    margin-left: 20px;
+    border: none;
+}
+.button95{
+    border-radius: 20px;
+    border-color: none;
+    border: none;
+    background-color: rgb(102, 17, 17);
+    margin-bottom: 10px;
+    margin-left: 5px;
+    color: black;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+.button95:hover{
+    background-color: rgb(240, 0, 0);
+    color: white;
+    
+}
+
+.kochistd{
+    width: 1300px;
+    height: 600px;
+    margin-left: 20px;
+}

@@ -1,0 +1,49 @@
+.slots{
+    background-color: rgb(121, 121, 121);
+    color: black;
+    height: 4%;
+    width: 100%;
+    margin-top: .7%;
+}
+.card{
+    width: 25%;
+    height: fit-content;
+}
+.book{
+    background-color:  rgb(2, 192, 151);
+    border: 2px solid balck;
+    color: rgb(255, 255, 255);
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 4px 2px;
+    transition-duration: 0.4s;
+    cursor: pointer;
+    border-radius: 12px;
+  }
+.book:hover{
+        background-color: white;
+        color: rgb(0, 0, 0);
+}
+.slots{
+    font-family: 'Times New Roman', Times, serif;
+}
+.card{
+    border: .1px solid rgb(127, 145, 141);
+}
+.card-title{
+    color: black;
+    font-family: 'Times New Roman', Times, serif;
+}
+.text{
+    color: black;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+.card-text{
+    color: orangered;
+}
+.mnr{
+       
+}
+

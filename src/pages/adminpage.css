@@ -1,0 +1,106 @@
+@charset "UTF-8";
+@import url(https://fonts.googleapis.com/css?family=Oswald:400,700);
+@import url(https://fonts.googleapis.com/css?family=Nunito:400,700);
+:root {
+  background: linear-gradient(to right, rgb(80, 2, 2), rgb(0, 0, 0));
+  height: 100vh;
+}
+.container2 {
+  width: 334px;
+  margin: 0 auto;
+  position: absolute;
+  top: 50%;
+  left: 0;
+  text-align: center;
+  right: 0;
+  -webkit-transform: translateY(-50%);
+          transform: translateY(-50%);
+}
+
+body
+{
+  background:#333;
+}
+a {
+  color: white;
+  text-decoration: none;
+}
+
+h1, h2 {
+  color: white;
+  font-family: 'Oswald', sans-serif;
+  font-weight: normal;
+}
+
+h2 {
+  font-size: 14px;
+  margin-bottom: 30px;
+  color: #24E2B8;
+}
+
+.four, .five {
+  border: none;
+  border-radius: 4px;
+  text-shadow: 0px 0px 10px rgba(0, 0, 0, 0.48);
+  overflow: hidden;
+  padding: 20px 50px 20px 70px;
+  margin-bottom: 20px;
+  font-size: 20px;
+  position: relative;
+  color: white;
+  outline: none;
+  cursor: pointer;
+  width: 100%;
+  -webkit-transition: background-position .7s,box-shadow .4s;
+  transition: background-position .7s,box-shadow .4s;
+  background-size: 110%;
+  font-family: 'Oswald', sans-serif;
+}
+
+.four {
+  box-shadow: 0px 0px 0px 2px rgba(255, 255, 255, 0.16) inset, 0px 0px 10px 0px #33E7EA;
+  background-image: -webkit-gradient(linear, left top, left bottom, from(#33E7EA), to(rgba(161, 245, 245, 0.24))), url("https://cdn2.itpro.co.uk/sites/itpro/files/server_room.jpg");
+  background-image: linear-gradient(to bottom, #33E7EA, rgba(161, 245, 245, 0.24)), url("https://cdn2.itpro.co.uk/sites/itpro/files/server_room.jpg");
+}
+.four:hover {
+  box-shadow: 0px 0px 0px 2px rgba(255, 255, 255, 0.16) inset, 0px 0px 30px 0px #33E7EA;
+}
+.four:hover:after {
+  -webkit-transform: rotate(3000deg);
+          transform: rotate(3000deg);
+}
+.four:hover:before {
+  -webkit-transform: rotate(360deg);
+          transform: rotate(360deg);
+}
+.four:after, .four:before {
+  content: "";
+}
+.four b {
+  color: #1CF4FF;
+  font-weight: 700;
+}
+
+.five {
+  box-shadow: 0px 0px 0px 2px rgba(255, 255, 255, 0.16) inset, 0px 0px 10px 0px #DE3964;
+  background-image: -webkit-gradient(linear, left top, left bottom, from(#DE3964), to(rgba(154, 40, 87, 0.24))), url("http://nightlifeassociates.com/wp-content/uploads/2014/03/hakkasan-nightclub_tiesto-smalls.jpg");
+  background-image: linear-gradient(to bottom, #DE3964, rgba(154, 40, 87, 0.24)), url("http://nightlifeassociates.com/wp-content/uploads/2014/03/hakkasan-nightclub_tiesto-smalls.jpg");
+}
+.five:hover {
+  box-shadow: 0px 0px 0px 2px rgba(255, 255, 255, 0.16) inset, 0px 0px 30px 0px #DE3964;
+}
+.five:hover:after {
+  -webkit-transform: scale(1);
+          transform: scale(1);
+}
+.five:hover:before {
+  -webkit-transform: scale(1.2);
+          transform: scale(1.2);
+}
+.five:after, .five:before {
+  content: "";
+}
+.five b {
+  color: #F764FF;
+  font-weight: 700;
+}

@@ -1,0 +1,35 @@
+.bek {
+    background-image: linear-gradient(to right, rgb(80, 2, 2), rgb(0, 0, 0));
+    color: white;
+}
+
+#messi10 {
+    width: 550px;
+    height: 500px;
+    margin-left: 25px;
+}
+
+.messi10 {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    color: white;
+}
+
+#cla {
+    margin-left: 380px;
+}
+@media only screen and (max-width:700px) {
+    #messi10 {
+        width: 250px;
+        height: 250px;
+        margin-left: 45px;
+    }
+    #cla{
+        margin-left: 70px;
+        width: 350px;
+        height: 700px;
+    }
+    .messi10{
+        color: white;
+    }
+    
+}
